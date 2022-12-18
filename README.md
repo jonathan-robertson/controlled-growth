@@ -23,6 +23,7 @@ Instead, I've opted for the changes listed below.
 
 ## Adjustments
 
-Factor | Original Base | New Base | Original Perc | New Perc
---- | :---: | :---: | :---: | :---:
-apparelAviatorGoggles | 3,5.2 | 1,3 | N/A | N/A
+Factor | Original | Adjusted
+--- | :---: | :---:
+apparelAviatorGoggles | 3,5.2 | 1,3
+drugEyeKandy | 5 + 10% | 3 + 5%
