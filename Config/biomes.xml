@@ -1,0 +1,16 @@
+<config>
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/@lootstage_modifier">-0.70</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='pine_forest']/@lootstage_bonus">0</set>
+
+    <set xpath="/worldgeneration/biomes/biome[@name='desert']/@lootstage_modifier">-0.55</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='desert']/@lootstage_bonus">5</set>
+
+    <set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/@lootstage_modifier">-0.55</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/@lootstage_bonus">5</set>
+
+    <set xpath="/worldgeneration/biomes/biome[@name='snow']/@lootstage_modifier">-0.40</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='snow']/@lootstage_bonus">10</set>
+
+    <set xpath="/worldgeneration/biomes/biome[@name='wasteland']/@lootstage_modifier">-0.25</set>
+    <set xpath="/worldgeneration/biomes/biome[@name='wasteland']/@lootstage_bonus">15</set>
+</config>
