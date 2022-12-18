@@ -28,3 +28,8 @@ Factor | Original | Adjusted
 apparelAviatorGoggles | 3,5.2 | 1,3
 drugEyeKandy | 5 + 10% | 3 + 5%
 perkLuckyLooter | 5-25% | 2-10%
+Tier 1 POI | 3 + 5% | 2 + 2%
+Tier 2 POI | 6 + 10% | 4 + 4%
+Tier 3 POI | 9 + 15% | 6 + 6%
+Tier 4 POI | 12 + 20% | 8 + 8%
+Tier 5 POI | 15 + 25% | 10 + 10%
