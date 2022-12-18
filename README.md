@@ -34,7 +34,7 @@ Tier 2 POI | 6 + 10% | 4 + 4%
 Tier 3 POI | 9 + 15% | 6 + 6%
 Tier 4 POI | 12 + 20% | 8 + 8%
 Tier 5 POI | 15 + 25% | 10 + 10%
-Forest | 0 + 0% | 35 -80%
+Forest | 0 + 0% | 35 - 80%
 Desert | 10 + 50% | 30 - 60%
 Burnt Forest | 10 + 50% | 30 - 60%
 Snow | 20 + 100% | 25 - 40%
