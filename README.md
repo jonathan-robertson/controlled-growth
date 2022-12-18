@@ -27,3 +27,4 @@ Factor | Original | Adjusted
 --- | :---: | :---:
 apparelAviatorGoggles | 3,5.2 | 1,3
 drugEyeKandy | 5 + 10% | 3 + 5%
+perkLuckyLooter | 5-25% | 2-10%
