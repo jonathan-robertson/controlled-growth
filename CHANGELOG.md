@@ -11,3 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - reduce eye kandy: 5+10% -> 3+5%
 - reduce goggles: 3,5.2 -> 1,3
 - reduce lucky looter: 5-25% -> 2-10%
+- reduce poi tier bonuses

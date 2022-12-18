@@ -1,0 +1,5 @@
+<config>
+    <!-- adjust poi difficulty tier bonuses (is active even outside of quests) -->
+    <set xpath="/lootcontainers/loot_settings/@poi_tier_mod">0.02,0.04,0.06,0.08,0.10</set>
+    <set xpath="/lootcontainers/loot_settings/@poi_tier_bonus">2,4,6,8,10</set>
+</config>
