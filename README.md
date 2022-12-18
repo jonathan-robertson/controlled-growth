@@ -23,4 +23,6 @@ Instead, I've opted for the changes listed below.
 
 ## Adjustments
 
-TODO
+Factor | Original Base | New Base | Original Perc | New Perc
+--- | :---: | :---: | :---: | :---:
+apparelAviatorGoggles | 3,5.2 | 1,3 | N/A | N/A
