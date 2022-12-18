@@ -8,4 +8,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - ?
 
 - add research
+- reduce eye kandy: 5+10% -> 3+5%
 - reduce goggles: 3,5.2 -> 1,3

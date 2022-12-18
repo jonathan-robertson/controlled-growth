@@ -1,0 +1,4 @@
+<config>
+    <set xpath="/buffs/buff[@name='buffDrugEyeKandy']/effect_group/passive_effect[@name='LootGamestage' and @operation='base_add']/@value">3</set>
+    <set xpath="/buffs/buff[@name='buffDrugEyeKandy']/effect_group/passive_effect[@name='LootGamestage' and @operation='perc_add']/@value">.05</set>
+</config>
