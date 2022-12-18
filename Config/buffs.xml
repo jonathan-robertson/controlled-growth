@@ -1,0 +1,10 @@
+<config>
+    <set xpath="/buffs/buff[@name='buffDrugEyeKandy']/effect_group/passive_effect[@name='LootGamestage' and @operation='base_add']/@value">3</set>
+    <set xpath="/buffs/buff[@name='buffDrugEyeKandy']/effect_group/passive_effect[@name='LootGamestage' and @operation='perc_add']/@value">.05</set>
+
+    <append xpath="/buffs/buff[@name='buffStatusCheck02']">
+        <effect_group name="controlled-growth-journal-entries">
+            <triggered_effect trigger="onSelfEnteredGame" action="AddJournalEntry" journal="controlledGrowthTip00" />
+        </effect_group>
+    </append>
+</config>
