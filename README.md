@@ -6,6 +6,7 @@
   - [Summary](#summary)
   - [Reasoning](#reasoning)
   - [Adjustments](#adjustments)
+  - [Compatibility](#compatibility)
 
 ## Summary
 
@@ -38,3 +39,11 @@ Desert | 10 + 50% | 30 - 60%
 Burnt Forest | 10 + 50% | 30 - 60%
 Snow | 20 + 100% | 25 - 40%
 Wasteland | 30 + 150% | 20 - 20%
+
+## Compatibility
+
+Setup | Works?
+--- | ---
+Local Game | Yes
+Peer 2 Peer Game | Yes
+Dedicated Server | Yes
