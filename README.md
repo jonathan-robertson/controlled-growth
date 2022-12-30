@@ -34,11 +34,11 @@ Tier 2 POI | 6 + 10% | 4 + 4%
 Tier 3 POI | 9 + 15% | 6 + 6%
 Tier 4 POI | 12 + 20% | 8 + 8%
 Tier 5 POI | 15 + 25% | 10 + 10%
-Forest | 0 + 0% | 35 - 80%
-Desert | 10 + 50% | 30 - 60%
-Burnt Forest | 10 + 50% | 30 - 60%
+Forest | 0 + 0% | 25 - 80%
+Desert | 10 + 50% | 25 - 60%
+Burnt Forest | 10 + 50% | 25 - 60%
 Snow | 20 + 100% | 25 - 40%
-Wasteland | 30 + 150% | 20 - 20%
+Wasteland | 30 + 150% | 25 - 20%
 
 ## Compatibility
 
