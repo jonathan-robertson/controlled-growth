@@ -3,7 +3,7 @@
         <Name value="Controlled Growth" />
         <Description value="Reduce loot stage bonus multipliers for a more controlled growth experience." />
         <Author value="Jonathan Robertson (Kanaverum)" />
-        <Version value="1.0.2" />
+        <Version value="1.1.0" />
         <Website value="https://github.com/jonathan-robertson/controlled-growth" />
     </ModInfo>
 </xml>

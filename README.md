@@ -6,6 +6,8 @@
   - [Summary](#summary)
   - [Reasoning](#reasoning)
   - [Adjustments](#adjustments)
+    - [XP Multipliers](#xp-multipliers)
+    - [Trader Quest Rewards](#trader-quest-rewards)
   - [Compatibility](#compatibility)
 
 ## Summary
@@ -24,6 +26,8 @@ Instead, I've opted for the changes listed below.
 
 ## Adjustments
 
+### XP Multipliers
+
 Factor | Original | Adjusted
 --- | :---: | :---:
 apparelAviatorGoggles | 3,5.2 | 1,3
@@ -39,6 +43,16 @@ Desert | 10 + 50% | 25 - 60%
 Burnt Forest | 10 + 50% | 25 - 60%
 Snow | 20 + 100% | 25 - 40%
 Wasteland | 30 + 150% | 25 - 20%
+
+### Trader Quest Rewards
+
+All tools, weapons, and armor have been removed from trader quest reward lists and replaced with resource stacks.
+
+This change is motivated by the realization that Trader reward gear (both tier and level) are informed solely by the tier of quest one completes.
+
+In some ways, this approach makes sense and would be considered realistic... but in other ways, it further breaks the growth cycle by rewarding low level players with high tier gear far sooner than they would get access to it otherwise.
+
+See the `loot.xml` file for more details.
 
 ## Compatibility
 
