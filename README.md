@@ -7,12 +7,13 @@
   - [Reasoning](#reasoning)
   - [Adjustments](#adjustments)
     - [XP Multipliers](#xp-multipliers)
+    - [Loot Stage Multipliers](#loot-stage-multipliers)
     - [Trader Quest Rewards](#trader-quest-rewards)
   - [Compatibility](#compatibility)
 
 ## Summary
 
-7 Days to Die Modlet: Reduce loot stage bonus multipliers for a more controlled growth experience.
+7 Days to Die Modlet: Reduce loot stage bonus multipliers and certain xp gains for a more controlled growth experience.
 
 TFP added a mechanic to support bonuses to Loot Stage while in more difficult biomes. While this originally sounded exciting (and to some degree, it was!), the fun wore off fairly quickly as players began receiving end-game gear in Tier 1 Wasteland after reaching level 100.
 
@@ -27,6 +28,23 @@ Instead, I've opted for the changes listed below.
 ## Adjustments
 
 ### XP Multipliers
+
+Type | Multiplier | Reasoning
+--- | :---: | ---
+Crafting | 0% | exploitable stack crafting
+Selling | 0% | too powerful
+Upgrading | 25% | very low risk, op xp option
+Debug | 100% | type used when issuing admin commands
+Harvesting | 100% | very low value, not exploitable, adds minor risk, encourages raw resource collection, noisy
+Kill | 100% | provides high risk, noisy
+Looting | 100% | very low value, not exploitable, adds risk
+Max | 100% | not used in game
+Other | 100% | covers minor, non-categorized xp types that do not appear to be exploitable
+Party | 100% | not used in game
+Quest | 100% | quests make the world go round
+Repairing | 100% | no risk, but also extremely low value xp source
+
+### Loot Stage Multipliers
 
 Factor | Original | Adjusted
 --- | :---: | :---:

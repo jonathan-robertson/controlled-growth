@@ -1,0 +1,8 @@
+<config>
+    <!-- by default, this value is 5, which means the default multiplier is 600%; 25% of 600 is 150... 100 is base, so 50 (add 50%) is the final value -->
+    <set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='PlayerExpGain' and @tags='Upgrading']/@value">0.5</set>
+    <insertafter xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='PlayerExpGain' and @tags='Upgrading']">
+        <passive_effect name="PlayerExpGain" operation="perc_subtract" value="1.00" tags="Selling" />
+        <passive_effect name="PlayerExpGain" operation="perc_subtract" value="1.00" tags="Crafting" />
+    </insertafter>
+</config>

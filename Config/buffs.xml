@@ -5,6 +5,8 @@
     <append xpath="/buffs/buff[@name='buffStatusCheck02']">
         <effect_group name="controlled-growth-journal-entries">
             <triggered_effect trigger="onSelfEnteredGame" action="AddJournalEntry" journal="controlledGrowthTip00" />
+            <triggered_effect trigger="onSelfEnteredGame" action="AddJournalEntry" journal="controlledGrowthTip01" />
+            <triggered_effect trigger="onSelfEnteredGame" action="AddJournalEntry" journal="controlledGrowthTip02" />
         </effect_group>
     </append>
 </config>
