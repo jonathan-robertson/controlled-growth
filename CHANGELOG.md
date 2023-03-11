@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.2.0] - 2023-03-10
 
+- add journal entries for xp and quest adjustments
 - reduce xp for harvesting and repairing to 50%
 - reduce xp for selling and crafting to 0%
 - reduce xp for upgrading blocks to 25%
