@@ -5,126 +5,33 @@
 
     <!-- replace certain items/groups from trader rewards since they cannot be forced to obey player lootstage -->
     <insertBefore xpath="/lootcontainers/lootgroup[1]">
-        <lootgroup name="groupQuestResourcesSmall">
-            <!-- raw harvested resources -->
-            <item name="resourceWood" count="300" />
-            <item name="resourceRockSmall" count="200" />
-            <item name="resourceYuccaFibers" count="200" />
-            <item name="resourceScrapIron" count="200" />
-            <item name="resourceScrapBrass" count="200" />
-            <item name="resourceScrapLead" count="200" />
-            <item name="resourceCoal" count="150" /> <!-- double the fuel of wood -->
-            <item name="resourceClayLump" count="150" />
-            <item name="resourceOilShale" count="150" />
-            <item name="resourcePotassiumNitratePowder" count="150" />
-            <item name="resourceScrapPolymers" count="50" />
-            <item name="resourceBone" count="50" />
-            <item name="resourcePaper" count="50" />
-            <item name="resourceSnowBall" count="50" />
-            <item name="resourceLeather" count="50" />
-            <item name="resourceAnimalFat" count="50" />
-            <item name="resourceFeather" count="50" />
-
-            <!-- scrappable, uncraftable trash -->
-            <item name="resourceBrokenGlass" count="100" /> <!-- 4 sand, each (becomes 1 crushed sand on dump -->
-
-            <!-- uncraftable resources -->
-            <item name="resourceElectricParts" count="25" />
-            <item name="resourceMechanicalParts" count="25" />
-            <item name="resourceSpring" count="25" />
-
-            <!-- rare uncraftable resources -->
-            <item name="resourceAcid" count="1" />
-            <item name="resourceTestosteroneExtract" count="1" />
-            <item name="resourceSewingKit" count="2,3" />
-
-            <item name="resourceSilverNugget" count="25,30" />
-            <item name="resourceGoldNugget" count="10,15" />
-            <item name="resourceRawDiamond" count="0" />
-        </lootgroup>
-
-        <lootgroup name="groupQuestResourcesMedium">
-            <!-- raw harvested resources -->
-            <item name="resourceWood" count="750" />
-            <item name="resourceRockSmall" count="500" />
-            <item name="resourceYuccaFibers" count="500" />
-            <item name="resourceScrapIron" count="500" />
-            <item name="resourceScrapBrass" count="500" />
-            <item name="resourceScrapLead" count="500" />
-            <item name="resourceCoal" count="375" /> <!-- double the fuel of wood -->
-            <item name="resourceClayLump" count="375" />
-            <item name="resourceOilShale" count="375" />
-            <item name="resourcePotassiumNitratePowder" count="375" />
-            <item name="resourceScrapPolymers" count="125" />
-            <item name="resourceBone" count="125" />
-            <item name="resourcePaper" count="125" />
-            <item name="resourceSnowBall" count="125" />
-            <item name="resourceLeather" count="125" />
-            <item name="resourceAnimalFat" count="125" />
-            <item name="resourceFeather" count="125" />
-
-            <!-- scrappable, uncraftable trash -->
-            <item name="resourceBrokenGlass" count="250" /> <!-- 4 sand, each (becomes 1 crushed sand on dump -->
-
-            <!-- uncraftable resources -->
-            <item name="resourceElectricParts" count="62,63" />
-            <item name="resourceMechanicalParts" count="62,63" />
-            <item name="resourceSpring" count="62,63" />
-
-            <!-- rare uncraftable resources -->
-            <item name="resourceAcid" count="2,3" />
-            <item name="resourceTestosteroneExtract" count="2,3" />
-            <item name="resourceSewingKit" count="5,8" />
-
-            <item name="resourceSilverNugget" count="30,40" />
-            <item name="resourceGoldNugget" count="15,25" />
-            <item name="resourceRawDiamond" count="1" />
-        </lootgroup>
-
-        <lootgroup name="groupQuestResourcesLarge">
-            <!-- raw harvested resources -->
-            <item name="resourceWood" count="1500" />
-            <item name="resourceRockSmall" count="1000" />
-            <item name="resourceYuccaFibers" count="1000" />
-            <item name="resourceScrapIron" count="1000" />
-            <item name="resourceScrapBrass" count="1000" />
-            <item name="resourceScrapLead" count="1000" />
-            <item name="resourceCoal" count="750" /> <!-- double the fuel of wood -->
-            <item name="resourceClayLump" count="750" />
-            <item name="resourceOilShale" count="750" />
-            <item name="resourcePotassiumNitratePowder" count="750" />
-            <item name="resourceScrapPolymers" count="250" />
-            <item name="resourceBone" count="250" />
-            <item name="resourcePaper" count="250" />
-            <item name="resourceSnowBall" count="250" />
-            <item name="resourceLeather" count="250" />
-            <item name="resourceAnimalFat" count="250" />
-            <item name="resourceFeather" count="250" />
-
-            <!-- scrappable, uncraftable trash -->
-            <item name="resourceBrokenGlass" count="500" /> <!-- 4 sand, each (becomes 1 crushed sand on dump -->
-
-            <!-- uncraftable resources -->
-            <item name="resourceElectricParts" count="125" />
-            <item name="resourceMechanicalParts" count="125" />
-            <item name="resourceSpring" count="125" />
-
-            <!-- rare uncraftable resources -->
-            <item name="resourceAcid" count="4,6" />
-            <item name="resourceTestosteroneExtract" count="4,6" />
-            <item name="resourceSewingKit" count="10,15" />
-
-            <item name="resourceSilverNugget" count="40,50" />
-            <item name="resourceGoldNugget" count="25,30" />
+        <lootgroup name="groupQuestValuablesSmall">
+            <item name="resourceSilverNugget" count="5,10" />
+            <item name="resourceGoldNugget" count="2,5" />
             <item name="resourceRawDiamond" count="1,2" />
+            <item name="casinoCoin" count="250,500" />
+            <item name="oldCash" count="250,500" />
+        </lootgroup>
+
+        <lootgroup name="groupQuestValuablesMedium">
+            <item name="resourceSilverNugget" count="15,25" />
+            <item name="resourceGoldNugget" count="7,9" />
+            <item name="resourceRawDiamond" count="3,5" />
+            <item name="casinoCoin" count="750,1250" />
+            <item name="oldCash" count="750,1250" />
+        </lootgroup>
+
+        <lootgroup name="groupQuestValuablesLarge">
+            <item name="resourceSilverNugget" count="40,50" />
+            <item name="resourceGoldNugget" count="15,20" />
+            <item name="resourceRawDiamond" count="7,9" />
+            <item name="casinoCoin" count="2000,2500" />
+            <item name="oldCash" count="2000,2500" />
         </lootgroup>
     </insertBefore>
 
     <!-- fill the given groups with resource bundles of varying size instead -->
-    <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT1' or @group='groupQuestWeaponsMeleeT1' or @group='groupQuestWeaponsRangedT1' or @group='groupQuestArmorT1']/@group">groupQuestResourcesSmall</set>
-    <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT2' or @group='groupQuestWeaponsMeleeT2' or @group='groupQuestWeaponsRangedT2' or @group='groupQuestArmorT2']/@group">groupQuestResourcesMedium</set>
-    <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT3' or @group='groupQuestWeaponsMeleeT3' or @group='groupQuestWeaponsRangedT3' or @group='groupQuestArmorT3']/@group">groupQuestResourcesLarge</set>
-
-    <!-- remove tools/weapons/armor-related schematics to prevent early access to higher tier tools/weapons/armor -->
-    <remove xpath="/lootcontainers/lootgroup[@name='groupQuestSchematics']/item[starts-with(@group, 'schematicsToolsT') or starts-with(@group, 'schematicsWeaponsArmorT')]" />
+    <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT1' or @group='groupQuestWeaponsMeleeT1' or @group='groupQuestWeaponsRangedT1' or @group='groupQuestArmorT1']/@group">groupQuestValuablesSmall</set>
+    <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT2' or @group='groupQuestWeaponsMeleeT2' or @group='groupQuestWeaponsRangedT2' or @group='groupQuestArmorT2']/@group">groupQuestValuablesMedium</set>
+    <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT3' or @group='groupQuestWeaponsMeleeT3' or @group='groupQuestWeaponsRangedT3' or @group='groupQuestArmorT3']/@group">groupQuestValuablesLarge</set>
 </config>
