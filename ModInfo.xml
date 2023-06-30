@@ -1,9 +1,8 @@
 <xml>
-    <ModInfo>
-        <Name value="Controlled Growth" />
-        <Description value="Reduce loot stage bonus multipliers and certain xp gains for a more controlled growth experience." />
-        <Author value="Jonathan Robertson (Kanaverum)" />
-        <Version value="1.2.0" />
-        <Website value="https://github.com/jonathan-robertson/controlled-growth" />
-    </ModInfo>
+    <Name value="kanaverum-controlled-growth" />
+    <DisplayName value="Controlled Growth" />
+    <Version value="2.0.0" />
+    <Description value="Reduce loot stage bonus multipliers and certain xp gains for a more controlled growth experience." />
+    <Author value="Jonathan Robertson (Kanaverum)" />
+    <Website value="https://github.com/jonathan-robertson/controlled-growth" />
 </xml>
