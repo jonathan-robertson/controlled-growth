@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - fix lootstage keyword in items for a21
 - fix lootstage keyword in progression for a21
 - increase gamestage difficulty in each biome
+- replace quest tier rewards with valuables
 - replace resource packs with valuables
 - update to support a21 b324 (stable)
 

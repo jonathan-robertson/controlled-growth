@@ -34,4 +34,18 @@
     <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT1' or @group='groupQuestWeaponsMeleeT1' or @group='groupQuestWeaponsRangedT1' or @group='groupQuestArmorT1']/@group">groupQuestValuablesSmall</set>
     <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT2' or @group='groupQuestWeaponsMeleeT2' or @group='groupQuestWeaponsRangedT2' or @group='groupQuestArmorT2']/@group">groupQuestValuablesMedium</set>
     <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT3' or @group='groupQuestWeaponsMeleeT3' or @group='groupQuestWeaponsRangedT3' or @group='groupQuestArmorT3']/@group">groupQuestValuablesLarge</set>
+
+    <!-- replace dedicated rewards with bonus item groups -->
+    <remove xpath="/lootcontainers/lootgroup[@name='groupQuestWrench' or @name='groupQuestT0Firearms' or @name='groupQuestT0LightArmor' or @name='groupQuestT0LightArmorBonus' or @name='groupQuestT0HeavyArmorBonus' or @name='groupQuestCobblestoneShapes']/item" />
+    <append xpath="/lootcontainers/lootgroup[@name='groupQuestWrench' or @name='groupQuestT0Firearms' or @name='groupQuestT0LightArmor' or @name='groupQuestT0LightArmorBonus' or @name='groupQuestT0HeavyArmorBonus' or @name='groupQuestCobblestoneShapes']">
+        <item group="groupQuestValuablesSmall" />
+    </append>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupQuestClawHammer' or @name='groupQuestT1Firearms' or @name='groupQuestT1LightArmor' or @name='groupQuestT1LightArmorBonus' or @name='groupQuestT1HeavyArmorBonus' or @name='groupQuestConcreteShapes']/item" />
+    <append xpath="/lootcontainers/lootgroup[@name='groupQuestClawHammer' or @name='groupQuestT1Firearms' or @name='groupQuestT1LightArmor' or @name='groupQuestT1LightArmorBonus' or @name='groupQuestT1HeavyArmorBonus' or @name='groupQuestConcreteShapes']">
+        <item group="groupQuestValuablesMedium" />
+    </append>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupQuestNailgun' or @name='groupQuestT2Firearms' or @name='groupQuestT3LegendaryFirearms' or @name='groupQuestT2LightArmor' or @name='groupQuestT2LightArmorBonus' or @name='groupQuestT2HeavyArmorBonus' or @name='groupQuestSteelShapes']/item" />
+    <append xpath="/lootcontainers/lootgroup[@name='groupQuestNailgun' or @name='groupQuestT2Firearms' or @name='groupQuestT3LegendaryFirearms' or @name='groupQuestT2LightArmor' or @name='groupQuestT2LightArmorBonus' or @name='groupQuestT2HeavyArmorBonus' or @name='groupQuestSteelShapes']">
+        <item group="groupQuestValuablesLarge" />
+    </append>
 </config>
