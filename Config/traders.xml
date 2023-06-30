@@ -1,0 +1,94 @@
+<config>
+    <!-- Trader Stage: Player Level * ( 1 + quest_tier_mod) -->
+
+    <!-- Tools/Weapons -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/@max">600</set> <!-- default: 20 -->
+    <!-- Tools/Weapons: Targeting Player Level 50 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier1']/@min">300</set> <!-- default: 50 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier1']/@max">1200</set> <!-- default: 50 -->
+    <!-- Tools/Weapons: Targeting Player Level 180 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier2']/@min">1080</set> <!-- default: 50 -->
+    <!-- Tools/Weapons: Targeting Player Level 265 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier3']/@min">1590</set> <!-- default: 100 -->
+
+    <!-- Mining Helmet,Forge: Targeting Player Level 25 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='midTier0']/@min">150</set> <!-- default: 10 -->
+    <!-- Workbench,Cement Mixer: Targeting Player Level 80 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='midTier1']/@min">480</set> <!-- default: 20 -->
+    <!-- Chem Station: Targeting Player Level 130 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='midTier2']/@min">840</set> <!-- default: 30 -->
+
+    <!-- Armor -->
+    <!-- Cloth,Scrap: Targeting Player Level 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='armorTier1']/@max">1080</set> <!-- default: 65 -->
+    <!-- Leather,Iron: Targeting Player Level 160 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='armorTier2']/@min">960</set> <!-- default: 45 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='armorTier2']/@max">1740</set> <!-- default: 135 -->
+    <!-- Military,Steel: Targeting Player Level 270 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='armorTier3']/@min">1620</set> <!-- default: 115 -->
+
+    <!-- Ammo -->
+    <!-- Brass/Buckshot/Darts: Targeting Player Level 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='ammoTier1']/@min">1</set> <!-- default: 1 -->
+    <!-- HP/Slug/HE: Targeting Player Level 100 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='ammoTier2']/@min">600</set> <!-- default: 25 -->
+    <!-- AP/Breach/Frag: Targeting Player Level 200 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='ammoTier3']/@min">1200</set> <!-- default: 55 -->
+
+    <!-- Arrows -->
+    <!-- Stone: Targeting Player Level 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier0']/@min">1</set> <!-- default: 1 -->
+    <!-- Iron: Targeting Player Level 25 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier1']/@min">150</set> <!-- default: 10 -->
+    <!-- Steel: Targeting Player Level 100 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier2']/@min">600</set> <!-- default: 25 -->
+    <!-- Flaming: Targeting Player Level 140 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier3']/@min">840</set> <!-- default: 40 -->
+    <!-- Explosive: Targeting Player Level 200 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier4']/@min">1200</set> <!-- default: 55 -->
+
+    <!-- Bows -->
+    <!-- Primitive Bow: Targeting Player Level 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/@min">1</set> <!-- default: 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/@max">600</set> <!-- default: 25 -->
+    <!-- Wooden Bow: Targeting Player Level 35 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier1']/@min">210</set> <!-- default: 15 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier1']/@max">840</set> <!-- default: 40 -->
+    <!-- Compound Bow, Iron Crossbow: Targeting Player Level 125 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier2']/@min">750</set> <!-- default: 35 -->
+    <!-- Compound Crossbow: Targeting Player Level 180 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier3']/@min">1080</set> <!-- default: 50 -->
+
+    <!-- Mods -->
+    <!-- Targeting Player Level 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='modsTier1']/@min">1</set> <!-- default: 1 -->
+    <!-- Targeting Player Level 100 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='modsTier2']/@min">600</set> <!-- default: 25 -->
+    <!-- Targeting Player Level 200 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='modsTier3']/@min">1200</set> <!-- default: 55 -->
+
+    <!-- Electric -->
+    <!-- Lighting, Speakers, Relays, Triggers, Generator Banks: Targeting Player Level 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='electricTier1']/@min">1</set> <!-- default: 1 -->
+    <!-- Batter Bank, Motion Sensor, Dart Trap: Targeting Player Level 100 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='electricTier2']/@min">600</set> <!-- default: 25 -->
+    <!-- Solar Bank, Flamethrower Trap, Blade Trap, Powered Turrets: Targeting Player Level 200 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='electricTier3']/@min">1200</set> <!-- default: 55 -->
+
+    <!-- Vehicles -->
+    <!-- Bicycle Parts: Targeting Player Level 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier0']/@min">1</set> <!-- default: 1 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier0']/@max">1080</set> <!-- default: 50 -->
+    <!-- Bicycle Full - Minibike Parts: Targeting Player Level 25 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier1']/@min">150</set> <!-- default: 25 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier1']/@max">390</set> <!-- default: 75 -->
+    <!-- Minibike Full - Motorcycle Parts: Targeting Player Level 50 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier2']/@min">300</set> <!-- default: 50 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier2']/@max">510</set> <!-- default: 100 -->
+    <!-- Motorcycle Full - 4x4 Parts: Targeting Player Level 75 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier3']/@min">450</set> <!-- default: 75 -->
+    <!-- 4x4 Full - Gyro Parts: Targeting Player Level 100 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier4']/@min">600</set> <!-- default: 100 -->
+    <!-- Gyro Full: Targeting Player Level 125 -->
+    <set xpath="/traders/traderstage_templates/traderstage_template[@name='vehicleTier5']/@min">750</set> <!-- default: 150 -->
+</config>
