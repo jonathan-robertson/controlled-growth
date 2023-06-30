@@ -10,14 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Level 300: unlock Tier 3 gear at trader
 - Level 150: Vehicles should all unlock
 
-## Broken
-
-- progression (2)
-
 ## [2.0.0] - 2023-06-30
 
 - fix lootstage keyword in buffs for a21
 - fix lootstage keyword in items for a21
+- fix lootstage keyword in progression for a21
 - increase gamestage difficulty in each biome
 - replace resource packs with valuables
 - update to support a21 b324 (stable)
