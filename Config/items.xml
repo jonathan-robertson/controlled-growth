@@ -1,6 +1,6 @@
 <config>
-    <set xpath="/items/item[@name='apparelAviatorGoggles']/effect_group/passive_effect[@name='LootGamestage']/@value">1,3</set>
+    <set xpath="/items/item[@name='apparelAviatorGoggles']/effect_group/passive_effect[@name='LootStage']/@value">1,3</set>
 
-    <set xpath="/items/item[@name='drugEyeKandy']/effect_group/display_value[@name='dLootGamestageFlat']/@value">3</set>
-    <set xpath="/items/item[@name='drugEyeKandy']/effect_group/display_value[@name='dLootGamestagePerc']/@value">.05</set>
+    <set xpath="/items/item[@name='drugEyeKandy']/effect_group/display_value[@name='dLootStageFlat']/@value">3</set>
+    <set xpath="/items/item[@name='drugEyeKandy']/effect_group/display_value[@name='dLootStagePerc']/@value">.05</set>
 </config>

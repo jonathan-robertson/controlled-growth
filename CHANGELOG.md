@@ -13,13 +13,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Broken
 
 - progression (2)
-- items (2, 4, 5)
 
 ## [2.0.0] - 2023-06-30
 
+- fix lootstage keyword in buffs for a21
+- fix lootstage keyword in items for a21
 - increase gamestage difficulty in each biome
 - replace resource packs with valuables
-- update buffs lootstage keyword for a21
 - update to support a21 b324 (stable)
 
 ## [1.2.0] - 2023-03-10
