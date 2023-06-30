@@ -48,4 +48,10 @@
     <append xpath="/lootcontainers/lootgroup[@name='groupQuestNailgun' or @name='groupQuestT2Firearms' or @name='groupQuestT3LegendaryFirearms' or @name='groupQuestT2LightArmor' or @name='groupQuestT2LightArmorBonus' or @name='groupQuestT2HeavyArmorBonus' or @name='groupQuestSteelShapes']">
         <item group="groupQuestValuablesLarge" />
     </append>
+
+    <!-- replace overpowered supply drop groups with valuables -->
+    <set xpath="/lootcontainers/lootgroup[@name='groupAirDropT2Bundles']/item[@group='groupQuestT1Firearms' or @group='groupQuestNailgun' or @group='groupQuestT0LightArmorBonus' or @group='groupQuestT0HeavyArmorBonus' or @group='groupQuestCobblestoneShapes']/@group">groupQuestValuablesSmall</set>
+    <set xpath="/lootcontainers/lootgroup[@name='groupAirDropT3Bundles']/item[@group='groupQuestT2Firearms' or @group='groupQuestT1LightArmor' or @group='groupQuestT1HeavyArmor']/@group">groupQuestValuablesMedium</set>
+    <set xpath="/lootcontainers/lootgroup[@name='groupAirDropT4Bundles']/item[@group='groupQuestT3Firearms' or @group='groupQuestT2LightArmor' or @group='groupQuestT2HeavyArmor' or @group='groupQuestConcreteShapes' or @group='groupQuestT2LightArmorBonus' or @group='groupQuestT2HeavyArmorBonus' or @group='groupQuestT3LegendaryFirearms' or @group='groupQuestSteelShapes']/@group">groupQuestValuablesLarge</set>
+    <set xpath="/lootcontainers/lootgroup[@name='groupAirDrop03']/item[@group='groupToolsTiered' or @group='groupArmorScaled' or @group='groupWeaponsAllScaled']/@group">groupQuestValuablesMedium</set>
 </config>
