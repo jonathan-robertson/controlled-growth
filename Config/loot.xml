@@ -30,6 +30,19 @@
         </lootgroup>
     </insertBefore>
 
+    <!-- add special loot group to replace loot group rolled in tier 5 infected quest after: groupInfestedT5MeleeRanged. -->
+    <!-- groupInfestedT5MeleeRanged is pretty jacked... guaranteed level 6 item, possibility of receiving all the way to tier 3. -->
+    <insertBefore xpath="/lootcontainers/lootgroup[1]">
+        <lootgroup name="groupQuestValuablesExtraLarge">
+            <item name="oldCash" count="6000,7500" loot_prob_template="high" />
+            <item name="casinoCoin" count="6000,7500" loot_prob_template="medHigh" />
+            <item name="resourceSilverNugget" count="150,170" loot_prob_template="med" />
+            <item name="resourceGoldNugget" count="50,65" loot_prob_template="medLow" />
+            <item name="resourceRawDiamond" count="25,30" loot_prob_template="low" />
+        </lootgroup>
+    </insertBefore>
+    <set xpath="/lootcontainers/lootgroup/item[@group='groupInfestedT5MeleeRanged']/@group">groupQuestValuablesExtraLarge</set>
+
     <!-- fill the given groups with resource bundles of varying size instead -->
     <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT1' or @group='groupQuestWeaponsMeleeT1' or @group='groupQuestWeaponsRangedT1' or @group='groupQuestArmorT1']/@group">groupQuestValuablesSmall</set>
     <set xpath="/lootcontainers/lootgroup/item[@group='groupQuestToolsT2' or @group='groupQuestWeaponsMeleeT2' or @group='groupQuestWeaponsRangedT2' or @group='groupQuestArmorT2']/@group">groupQuestValuablesMedium</set>
