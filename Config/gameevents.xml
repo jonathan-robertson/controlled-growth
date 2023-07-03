@@ -1,0 +1,19 @@
+<config>
+    <append xpath="/gameevents/action_sequence[@name='game_first_spawn']">
+        <action class="AddJournalTip">
+            <property name="tip_name" value="controlledGrowthTip00" />
+            <property name="show_window" value="false" />
+            <property name="phase" value="4" />
+        </action>
+        <action class="AddJournalTip">
+            <property name="tip_name" value="controlledGrowthTip01" />
+            <property name="show_window" value="false" />
+            <property name="phase" value="4" />
+        </action>
+        <action class="AddJournalTip">
+            <property name="tip_name" value="controlledGrowthTip02" />
+            <property name="show_window" value="false" />
+            <property name="phase" value="4" />
+        </action>
+    </append>
+</config>
