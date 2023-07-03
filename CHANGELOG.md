@@ -7,8 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.1.0] - 2023-07-03
 
-- fix first-login journal notification
+- fix first-time-login journal notification
 - reduce difficulty across the board
+- replace infected tier 5 group with valuables
 
 ## [2.0.0] - 2023-06-30
 
